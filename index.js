@@ -27,7 +27,7 @@ function parse(input) {
 function validateTravis(inputAuth, repoSlug, token) {
     var hasher = crypto.createHash('sha256');
 
-    hasher.update(rawAuthorization = hashed({
+    hasher.update(hashed({
         repoSlug: repoSlug,
         token: token
     }), "utf8");
