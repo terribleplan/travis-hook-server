@@ -1,0 +1,21 @@
+{
+  "name": "travis-hook-deliverer",
+  "version": "0.0.1",
+  "description": "A nice simple way for your travis hooks to exist on a remote server, and be cached.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kegan Myers <kegan@keganmyers.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "hiredis": "^0.3.0",
+    "lodash": "^3.7.0",
+    "q": "^1.2.0",
+    "redis": "^0.12.1",
+    "request-promise": "^0.4.2",
+    "simple-redis-connection": "^1.0.1",
+    "ws": "^0.7.1"
+  }
+}
