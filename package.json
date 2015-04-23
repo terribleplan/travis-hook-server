@@ -4,6 +4,7 @@
   "description": "A nice simple way for your travis hooks to exist on a remote server, and be cached.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kegan Myers <kegan@keganmyers.com>",
