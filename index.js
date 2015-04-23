@@ -83,6 +83,7 @@ app.post('/travisHook', function (req, res) {
     if (!validateTravis(req.headers.authorization, slug, config.travisToken)) {
         return fail();
     }
+    res.end("");
 
     return request({
         uri: requestLocation({
